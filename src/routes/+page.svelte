@@ -6,9 +6,9 @@
 <div class="outer">
 	<div class="titleText">
 		<h1>You landed in</h1>
-		<h1 class="nowrap">
-			<p>T3</p>
-			<h1 class="svelteFont">SVELTEKIT</h1>
+		<h1>
+			<span>T3</span>
+			<span class="svelteFont">SVELTEKIT</span>
 		</h1>
 	</div>
 	<div class="inner">
@@ -19,23 +19,15 @@
 
 <style>
 	.outer {
+		padding-bottom: 20px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
-		gap: 7rem 0px;
+		gap: 2rem 0px;
 	}
-
-	.nowrap {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		align-items: center;
-	}
-
 	.titleText {
-		padding-top: 50px;
-		font-size: 2rem;
+		font-size: 3rem;
 		line-height: 2rem;
 	}
 	.svelteFont {
