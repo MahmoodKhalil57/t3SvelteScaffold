@@ -9,7 +9,21 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"ignoreDeprecations": "5.0"
+		"ignoreDeprecations": "5.0",
+		"paths": {
+			"$lib": [
+				"./src/lib"
+			],
+			"$lib/*": [
+				"./src/lib/*"
+			],
+			"$env": [
+				"./.env"
+			],
+			"$types": [
+				"./types/src/routes/$types.d.ts"
+			],
+		}
 	},
 	"include": [
 		"src/**/*.d.ts",
