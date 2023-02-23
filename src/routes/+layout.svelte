@@ -9,9 +9,6 @@
 	$: webManifest = pwaInfo ? pwaInfo.webManifest.linkTag : '';
 </script>
 
-/// <reference lib="virtual:pwa-info" />
-/// <reference types="virtual:pwa-info" />
-
 <svelte:head>
 	{@html webManifest}
 </svelte:head>
