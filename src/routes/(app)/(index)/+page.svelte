@@ -5,7 +5,7 @@
 
 <div class="outer">
 	<div class="titleText">
-		<h1>You landed in</h1>
+		<h1>You just landed in</h1>
 		<h1>
 			<span>T3</span>
 			<span class="svelteFont">SVELTEKIT</span>
@@ -28,7 +28,7 @@
 	}
 	.titleText {
 		font-size: 3rem;
-		line-height: 2rem;
+		line-height: 5rem;
 	}
 	.svelteFont {
 		font-family: 'Overpass', sans-serif;

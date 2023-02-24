@@ -1,5 +1,8 @@
 <div class="outer">
-	<div class="notConnected">No Css Framework Connected</div>
+	<div class="notConnected !hidden">No Css Framework Connected</div>
+	<div class="Connected !block text-2xl text-green-600 font-[800]">
+		Tailwind Connected Successfully
+	</div>
 </div>
 
 <style>
@@ -21,5 +24,8 @@
 		color: rgb(184, 11, 11);
 		font-size: x-large;
 		font-weight: 800;
+	}
+	.Connected {
+		display: none;
 	}
 </style>
