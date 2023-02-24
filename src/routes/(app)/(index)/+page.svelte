@@ -1,6 +1,6 @@
 <script lang="ts">
-	import ApiShowcase from '$lib/components/ApiShowcase.svelte';
-	import CssShowcase from '$lib/components/CssShowcase.svelte';
+	import ApiShowcase from '$lib/deleteThisFolder/ApiShowcase.svelte';
+	import CssShowcase from '$lib/deleteThisFolder/CssShowcase.svelte';
 </script>
 
 <div class="outer">
