@@ -2,7 +2,9 @@
 	<div class="notConnected !hidden">No Css Framework Connected</div>
 	<div class="Connected text-2xl text-green-600 font-[800] !flex flex-row gap-3">
 		<div class="i-material-symbols-check-circle-rounded" />
-		Tailwind Connected Successfully
+		<div class="tooltip tooltip-open" data-tip="+DaisyUi">
+			<div>Tailwind Connected Successfully</div>
+		</div>
 		<div class="i-noto-party-popper" />
 	</div>
 </div>
